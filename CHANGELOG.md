@@ -6,7 +6,7 @@
 
 </div>
 
-# Running the code
+# Local Development
 
 Prerequisites
 
@@ -20,39 +20,46 @@ Clone the repository or download the code files.
 git clone https://github.com/ShalmolyMondal/IoTDG.git
 ```
 
-## Front-End 
+## Front-End Development
 
 Navigate to IoTDG/ui/public-src
 
-### Install dependencies (with respective node versions)
+### Install the dependencies (with respective node versions) by running the following command
 
 ```bash
 npm install
 ```
+```bash
+npm run server
+```
+
+- This will start the server and listen on port 8090.
+- The application can then be accessed using http://localhost:8090/situations/.
 
 ## Back-End 
 
 Navigate to IoTDG/node_be
 
-### Install dependencies (with respective node versions)
+### Install dependencies (with respective node versions) by running the following command
 
 ```bash
 npm install
 ```
 
-The “npm start” command can be used to run the production build instead of “npm run dev”. 
-The backend application is set up to run under port 9080, configured on the node_be/app.js file.
+```bash
+npm run dev
+```
 
+- The “npm run” command can be used to run the production build instead of “npm run dev”.
+- The backend application is set up to run under port 9080, configured on the node_be/app.js file.
+  
 
-####FastAPI :
+## FastAPI:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-The frontend project is served on port 8090. The application can then be accessed using http://localhost:8090/situations/.
+## License
 
-
-#node_be => Node version : 14.19.3 (windows) npm run dev
-#UI => Node version : 8.17.0 (windows) (use lts of 8.x) => local port : 9100 npm run server
-#python uvicorn main:app --reload
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion by you shall be licensed at the discretion of the repository maintainers without any additional terms or conditions.
