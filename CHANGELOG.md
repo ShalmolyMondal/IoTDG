@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="https://user-images.githubusercontent.com/4072962/38543709-fb04c520-3cad-11e8-8e23-0bb1155f16ae.png" />
-
   <h1>Situation Based IoT Data Generator</h1>
 
 </div>
