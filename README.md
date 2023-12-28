@@ -51,7 +51,7 @@ The tool allows data to be generated based on two methods:
 In this method, a small sample of data is provided as a seed to the tool. This approach allows for generating data that closely mimics real-world scenarios and helps ensure that the generated data is relevant and useful for the intended IoT
 application or users.
 
-**(2). Situation based Data Generator **
+**(2).Situation based Data Generator**
 
 This was developed by extending the [IoT data simulator tool](https://github.com/IBA-Group-IT/IoT-data-simulator/).
 
@@ -61,7 +61,7 @@ To generate data on the fly, navigate to _Add Situations_ screen, then:
 2.  Configure the situations;
 3.  Select the situation transition parameters;
 4.  You can select the frequency/no of data records to be generated
-5.  Click on _Generate Data_.
+5.  Click on **Generate Data**.
 
 ## Experimental Results and Validation
 
