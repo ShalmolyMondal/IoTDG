@@ -1,18 +1,20 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Resources](#resources) 
 - [Key Features of SA-IoTDG](#features)
-  - [Data Source](#data-origin)
-  - [Data Preparation](#data-preparation)
-- [Model Training](#training)
-- [Model Evaluation](#model-evaluation)
-- [Results](#results)
+- [Getting Started](#resources)
+  - [Prerequisites](#prerequi)
+  - [Installation](#install)
+- [Usage](#usage)
+  - [Generating Data](#data-gen)  
+- [Experimental Results and Validation](#exp)
+- [Intended usage and useful scenarios](#scenarios)
+- [Acknowledgements](#results)
 
 
 ## About the Project
 
-SA-IoTDG is the tool that allows you to simulate IoT devices data with great flexibility. With this tool you won't need to code another new simulator for each IoT project.
+SA-IoTDG allows you to simulate data fo IoT applications based on situations of IoT Applications. If you would like to read more, detailed work about the tool can be found here. [Publication](https://www.mdpi.com/1424-8220/23/1/7)
 
 ### Key features of SA-IoTDG:
 
@@ -25,7 +27,7 @@ SA-IoTDG is the tool that allows you to simulate IoT devices data with great fle
 **Prerequisites**
 *docker* (v. 17.05+) and *docker-compose* should be installed
 
-**Startup**
+**Installation**
 Run the following commands in the folder with *docker-compose.yml* and *.env* files from *release* folder:
 
     docker-compose pull
