@@ -55,11 +55,9 @@ The tool allows data to be generated based on two methods:
 In this method, a small sample of data is provided as a seed to the tool. This approach allows for generating data that closely mimics real-world scenarios and helps ensure that the generated data is relevant and useful for the intended IoT
 application or users.
 
-(2). Rule-based Data Generator
+(2). Situation based Data Generator 
 
-This was developed by extending the [IoT data simulator tool](https://github.com/IBA-Group-IT/IoT-data-simulator/)
-
-(3). Situation based Data Generator 
+This was developed by extending the [IoT data simulator tool](https://github.com/IBA-Group-IT/IoT-data-simulator/). 
 
 To generate data on the fly, navigate to *Add Situations* screen, then:
 
@@ -80,18 +78,20 @@ Extensive experimental evaluations confirm:
 * SA-IoTDG's ability to generate data statistically similar to real-world traffic data.
 * The effectiveness of using generated data for performance evaluation of deployed IoT applications on different middleware platforms.
 
-For the first method of data generation, which is the replay method, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
+For the first method of data generation, which is the **replay method**, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
 
 <p float="left">
   <img src="ExperimentalResults/gen_data_fit.png" width="300" />
   <img src="ExperimentalResults/metro_data_fit.png" width="300" /> 
 </p>
 
+For the second method, the **Situation Based**, the tool was validated to generate data based on a situation transition approach.
 
+![SitDataGen](ExperimentalResults/SituationBasedDataGen.png)
 
 ## Intended usage and useful scenarios
 
-The project includes a demonstration using a real-world example for traffic monitoring scenario to showcase the practical application of SA-IoTDG.
+The project includes a demonstration using a real-world example for a traffic monitoring scenario to showcase the practical application of SA-IoTDG.
 
 
 ## Acknowledgements
