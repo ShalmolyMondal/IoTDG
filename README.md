@@ -37,13 +37,6 @@ depending on the OS or docker version.
 
 ![demo](https://user-images.githubusercontent.com/4072962/38543721-023134b4-3cae-11e8-8e97-ee6468771e2a.gif)
 
-
-
-If you would like read more about why we created this tool, please read **Motivation** section.
-
-Detailed work can be found here. [Publication](https://www.mdpi.com/1424-8220/23/1/7)
-
- 
 ##  Usage
 
 **Generating data**
@@ -67,7 +60,6 @@ To generate data on the fly, navigate to *Add Situations* screen, then:
    4. You can select the frequency/no of data records to be generated
    5. Click on *Generate Data*. 
    
-
 ## Experimental Results and Validation
 
 Experimental evaluations validate SA-IoTDG's ability to generate IoT data resembling real-world scenarios and enable performance evaluations of IoT applications on various middleware platforms.
@@ -93,6 +85,7 @@ For the second method, the **Situation Based**, the tool was validated to genera
 
 The project includes a demonstration using a real-world example for a traffic monitoring scenario to showcase the practical application of SA-IoTDG.
 
+If you would like to read more, detailed work about the tool can be found here. [Publication](https://www.mdpi.com/1424-8220/23/1/7)
 
 ## Acknowledgements
 
