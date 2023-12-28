@@ -59,6 +59,13 @@ To generate data on the fly, navigate to **Add Situations** screen, then:
 4.  You can select the frequency/no of data records to be generated
 5.  Click on **Generate Data**.
 
+<video width="640" height="360" controls>
+  <source src="video_preview.mp4" type="video/gi">
+  Your browser does not support the video tag.
+</video>
+
+<img src="ExperimentalResults/DataGenDemo.gif" alt="Video Preview" width="800" height="450">
+
 ![Video Preview](ExperimentalResults/DataGenDemo.gif)
 
 ## Experimental Results and Validation
