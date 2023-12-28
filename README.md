@@ -13,13 +13,13 @@
 
 ## About the Project
 
-SA-IoTDG that allows you to simulate data for IoT applications based on situations of IoT applications. If you would like read more about this research, please refer to[Publication](https://www.mdpi.com/1424-8220/23/1/7)
+SA-IoTDG that allows you to simulate data for IoT applications based on situations of IoT applications. If you would like read more about this research, please refer to [Publication](https://www.mdpi.com/1424-8220/23/1/7)
 
 ## Key features of SA-IoTDG:
 
-**Situation Description System:** Defines and characterizes various states and transitions within the IoT application's operational context.
-**SysML Model:** Captures the functional and non-functional requirements of the IoT application for data generation. The framework integrates a SysML model to capture and represent IoT application requirements effectively.
-**Markov Chain-Based Transition:** SA-IoTDG utilizes a Markov chain-based approach for smooth transitions in IoT data generation corresponding to different situations. It models the dynamic nature of IoT data by using a state-transition matrix to generate realistic data sequences, transitioning between situations based on their defined probabilities.
+- **Situation Description System:** Defines and characterizes various states and transitions within the IoT application's operational context.
+- **SysML Model:** Captures the functional and non-functional requirements of the IoT application for data generation. The framework integrates a SysML model to capture and represent IoT application requirements effectively.
+- **Markov Chain-Based Transition:** SA-IoTDG utilizes a Markov chain-based approach for smooth transitions in IoT data generation corresponding to different situations. It models the dynamic nature of IoT data by using a state-transition matrix to generate realistic data sequences, transitioning between situations based on their defined probabilities.
 
 ## Getting Started
 
