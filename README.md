@@ -13,7 +13,7 @@
 
 ## About the Project
 
-SA-IoTDG that allows you to simulate data for IoT applications based on situations of IoT applications. If you would like read more about this research, please refer to [Publication](https://www.mdpi.com/1424-8220/23/1/7)
+SA-IoTDG that allows you to simulate data for IoT applications based on situations of IoT applications. If you would like read more about this research, please refer to [Publication](https://www.mdpi.com/1424-8220/23/1/7).
 
 ## Key features of SA-IoTDG:
 
