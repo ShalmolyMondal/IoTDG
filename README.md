@@ -83,8 +83,8 @@ Extensive experimental evaluations confirm:
 For the first method of data generation, which is the replay method, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
 
 <p float="left">
-  <img src="gen_data_fit.png" width="300" />
-  <img src="metro_data_fit.png" width="300" /> 
+  <img src="ExperimentalResults/gen_data_fit.png" width="300" />
+  <img src="ExperimentalResults/metro_data_fit.png" width="300" /> 
 </p>
 
 
