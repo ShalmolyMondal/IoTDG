@@ -36,8 +36,6 @@ UI will be available by the following url:
 http://localhost:8090 or http://docker-machine-ip:8090
 depending on the OS or docker version.
 
-![demo](https://user-images.githubusercontent.com/4072962/38543721-023134b4-3cae-11e8-8e97-ee6468771e2a.gif)
-
 ## Usage
 
 **Generating data**
