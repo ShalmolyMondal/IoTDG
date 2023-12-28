@@ -70,9 +70,13 @@ To generate data on the fly, navigate to **Add Situations** screen, then:
 
 ## Experimental Results and Validation
 
-Experimental evaluations validate SA-IoTDG's ability to generate IoT data resembling real-world scenarios and enable performance evaluations of IoT applications on various middleware platforms.
+Experimental evaluations validate SA-IoTDG's ability to generate IoT data resembling real-world scenarios. The generated synthetic data was subjected to a comprehensive assessment within the context of a traffic monitoring scenario. This involved simulating conditions and scenarios relevant to traffic data, allowing for a detailed examination of how well the synthetic data aligned with the complexities of real-world traffic patterns.
 
-We demonstrate SA-IoTDG using a real-world traffic monitoring scenario, showcasing its ability to generate realistic traffic data.
+
+
+<!--and enable performance evaluations of IoT applications on various middleware platforms.-->
+
+<!-- We demonstrate SA-IoTDG using a real-world traffic monitoring scenario, showcasing its ability to generate realistic traffic data. -->
 
 Extensive experimental evaluations confirm:
 
