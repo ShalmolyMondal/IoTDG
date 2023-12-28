@@ -66,7 +66,7 @@ To generate data on the fly, navigate to **Add Situations** screen, then:
 
 <img src="ExperimentalResults/DataGenDemo.gif" alt="Video Preview" width="800" height="450">
 
-![Video Preview](ExperimentalResults/DataGenDemo.gif)
+<!-- ![Video Preview](ExperimentalResults/DataGenDemo.gif) -->
 
 ## Experimental Results and Validation
 
