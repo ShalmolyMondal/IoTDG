@@ -88,7 +88,12 @@ For the first method of data generation, which is the **replay method**, the ana
 
 For second method of data generation, which is the **situation based method**, the results demomstrated the relevant situation based data generation for IoT applications.
 
-![SitDataGen](ExperimentalResults/SituationBasedDataGen.png)
+<p float="left">
+  <img src="ExperimentalResults/TrafficDataForecast.png" width="300" />
+  <img src="ExperimentalResults/confusion-matrix.png" width="300" /> 
+</p>
+
+<!-- ![SitDataGen](ExperimentalResults/SituationBasedDataGen.png) -->
 
 ## Intended usage and useful scenarios
 
