@@ -61,6 +61,8 @@ To generate data on the fly, navigate to **Add Situations** screen, then:
 4.  You can select the frequency/no of data records to be generated
 5.  Click on **Generate Data**.
 
+![Video Preview](ExperimentalResults/DataGenDemo.gif)
+
 ## Experimental Results and Validation
 
 Experimental evaluations validate SA-IoTDG's ability to generate IoT data resembling real-world scenarios and enable performance evaluations of IoT applications on various middleware platforms.
