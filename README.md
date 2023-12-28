@@ -79,17 +79,18 @@ Extensive experimental evaluations confirm:
 - SA-IoTDG's ability to generate data statistically similar to real-world traffic data.
 - The effectiveness of using generated data for performance evaluation of deployed IoT applications on different middleware platforms.
 
-For the first method of data generation, which is the **replay method**, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
+For the first method of data generation, which is the **_replay method_**, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
 
 <p float="left">
   <img src="ExperimentalResults/gen_data_fit.png" width="300" />
   <img src="ExperimentalResults/metro_data_fit.png" width="300" /> 
 </p>
 
-For second method of data generation, which is the **situation based method**, the results demomstrated the relevant situation based data generation for IoT applications.
+For second method of data generation, which is the **_situation based method_**, the results demomstrated the relevant situation based data generation for IoT applications. We were also able to predict the next situations with an accuracy of 88%
 
 <p float="left">
   <img src="ExperimentalResults/TrafficDataForecast.png" width="300" />
+  <img src="ExperimentalResults/data_time_based.png" width="300" /> 
   <img src="ExperimentalResults/confusion-matrix.png" width="300" /> 
 </p>
 
