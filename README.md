@@ -17,9 +17,8 @@ SA-IoTDG is the tool that allows you to simulate IoT devices data with great fle
 ### Key features of SA-IoTDG:
 
 ** Situation Description System: Defines and characterizes various states and transitions within the IoT application's operational context.
-** SysML Model: Captures the functional and non-functional requirements of the IoT application for data generation.
-** Markov Chain-Based Data Generation: Models the dynamic nature of IoT data by using a state-transition matrix to generate realistic data sequences, transitioning between situations based on their defined probabilities.
-
+** SysML Model: Captures the functional and non-functional requirements of the IoT application for data generation. The framework integrates a SysML model to capture and represent IoT application requirements effectively.
+** Markov Chain-Based Transition: SA-IoTDG utilizes a Markov chain-based approach for smooth transitions in IoT data generation corresponding to different situations. It models the dynamic nature of IoT data by using a state-transition matrix to generate realistic data sequences, transitioning between situations based on their defined probabilities.
 
 ## Getting Started
 
@@ -36,24 +35,31 @@ UI will be available by the following url:
 http://localhost:8090 or http://docker-machine-ip:8090
 depending on the OS or docker version.
 
-
 ![demo](https://user-images.githubusercontent.com/4072962/38543721-023134b4-3cae-11e8-8e97-ee6468771e2a.gif)
 
-Simulator **features** that you will like:
-1. Replay existing datasets with modified data (such as updated timestamps, generated ids etc);
-2. Automatic derivation of dataset structure which allows you to customize your dataset without the need to describe its structure from scratch;
-3. Generate datasets of any complexity. Generated data can be described via constructor or JavaScript function. Multiple rules are available in constructor such as "Random integer", "UUID" and others. JS function  gives you maximum flexibility to generate data - it supports popular JS libraries *lodash* and *momentjs*.
-4. Send data to the platforms you use with minimum configuration (see *Supported target systems* section);
-5. Customize frequency with which data will be sent - based on dataset timestamp properties or just constant time interval. The tool also supports relative timestamp properties which depend on other timestamp or date properties. It means that data can be replayed with the same interval between timestamps as in initial dataset.
-6. Easy installation - all you need is to download 2 docker files and run 2 commands.
+
 
 If you would like read more about why we created this tool, please read **Motivation** section.
 
+Detailed work can be found here. [Publication](https://www.mdpi.com/1424-8220/23/1/7)
 
  
 ##  Usage
 
-**Generate data**
+**Generating data**
+
+The tool allows data to be generated based on two methods:
+
+(1). Replay Data Generator
+
+In this method, a small sample of data is provided as a seed to the tool. This approach allows for generating data that closely mimics real-world scenarios and helps ensure that the generated data is relevant and useful for the intended IoT
+application or users.
+
+(2). Rule-based Data Generator
+
+This was developed by extending the [IoT data simulator tool](https://github.com/IBA-Group-IT/IoT-data-simulator/)
+
+(3). Situation based Data Generator 
 
 To generate data on the fly, navigate to *Add Situations* screen, then:
 
@@ -64,13 +70,28 @@ To generate data on the fly, navigate to *Add Situations* screen, then:
    5. Click on *Generate Data*. 
    
 
+## Experimental Results and Validation
 
+Experimental evaluations validate SA-IoTDG's ability to generate IoT data resembling real-world scenarios and enable performance evaluations of IoT applications on various middleware platforms.
+
+We demonstrate SA-IoTDG using a real-world traffic monitoring scenario, showcasing its ability to generate realistic traffic data.
+
+Extensive experimental evaluations confirm:
+* SA-IoTDG's ability to generate data statistically similar to real-world traffic data.
+* The effectiveness of using generated data for performance evaluation of deployed IoT applications on different middleware platforms.
+
+For the first method of data generation, which is the replay method, the analysis revealed that the input data followed a Gaussian distribution; hence, data with the same distribution was generated.
+
+<p float="left">
+  <img src="gen_data_fit.png" width="300" />
+  <img src="metro_data_fit.png" width="300" /> 
+</p>
 
 
 
 ## Intended usage and useful scenarios
 
-
+The project includes a demonstration using a real-world example for traffic monitoring scenario to showcase the practical application of SA-IoTDG.
 
 
 ## Acknowledgements
