@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [About the Project](#about-the-project)
+- [About the Project](#brief-overview)
 - [Key Features of SA-IoTDG](#Key-Features-of-SA-IoTDG)
 - [Getting Started](#getting-started)
   - [Prerequisites](#Prerequisites)
@@ -15,7 +15,14 @@
 
 SA-IoTDG is a tool enabling the simulation of IoT data for applications by replicating real-world IoT scenarios. For detailed information, refer to the associated [Publication](https://www.mdpi.com/1424-8220/23/1/7).
 
+## Brief Overview
 
+*  Conducted a thorough analysis of real-time data streams to gain insights into the distribution patterns inherent in the data.
+
+*  Employed advanced statistical techniques to generate synthetic data that replicated the identified patterns and trends observed in the real-world dataset.
+
+* The generated data was evaluated using a real-world traffic monitoring scenario.
+  
 ## Key features of SA-IoTDG:
 
 - **Situation Description System:** Defines and characterizes various states and transitions within the IoT application's operational context.
