@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [About the Project](#brief-overview)
+- [Brief Overview](#brief-overview)
 - [Key Features of SA-IoTDG](#Key-Features-of-SA-IoTDG)
 - [Getting Started](#getting-started)
   - [Prerequisites](#Prerequisites)
