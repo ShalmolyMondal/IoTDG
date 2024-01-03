@@ -98,7 +98,7 @@ For the first method of data generation, which is the **_replay method_**, the a
   <img src="ExperimentalResults/metro_data_fit.png" width="300" /> 
 </p>
 
-For second method of data generation, which is the **_situation based method_**, the results demomstrated the relevant situation based data generation for IoT applications. We were also able to predict the next situations with an accuracy of 88%
+For second method of data generation, which is the **_situation-based method_**, the results demonstrated the relevant situation-based data generation for IoT applications. We were also able to predict the next situations with an accuracy of 88%.
 
 <p float="left">
   <img src="ExperimentalResults/TrafficDataForecast.png" width="300" />
@@ -110,8 +110,8 @@ For second method of data generation, which is the **_situation based method_**,
 
 ## Intended usage and useful scenarios
 
-The project includes a demonstration using a real-world example for traffic monitoring scenario to showcase the practical application of SA-IoTDG.
+The project includes a demonstration using a real-world example for traffic monitoring scenarios to showcase the practical application of SA-IoTDG.
 
 ## Acknowledgements
 
-This tool is developed by extending the [IoT Data Simualtor Tool](https://github.com/IBA-Group-IT/IoT-data-simulator/).
+This tool is developed by extending the [IoT Data Simulator Tool](https://github.com/IBA-Group-IT/IoT-data-simulator/).
